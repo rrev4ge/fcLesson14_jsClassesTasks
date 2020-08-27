@@ -10,7 +10,7 @@ class MyString {
   static ucFirst(string) {
     return string
       .split()
-      .map((latter) => `${latter.charAt(0).toUpperCase()}${latter.slice(1)}`)
+      .map((lеtter) => `${lеtter.charAt(0).toUpperCase()}${lеtter.slice(1)}`)
       .join();
   }
 
