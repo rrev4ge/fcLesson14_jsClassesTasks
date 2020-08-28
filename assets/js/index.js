@@ -3,8 +3,8 @@
 // Tasks from lesson practics:
 
 class MyString {
-  static reverce(string) {
-    return string.split("").reverce().join("");
+  static reverse(string) {
+    return string.split("").reverse().join("");
   }
 
   static ucFirst(string) {
